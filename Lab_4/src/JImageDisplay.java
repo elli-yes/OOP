@@ -3,6 +3,10 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class JImageDisplay extends JComponent {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private final BufferedImage image;
 
     public JImageDisplay(int w, int h){

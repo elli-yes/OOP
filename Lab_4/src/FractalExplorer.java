@@ -28,7 +28,7 @@ public class FractalExplorer {
         JButton resetButton = new JButton("Reset Display");
 
         Resetter handler = new Resetter();
-        resetButton.addActionListener(handler)
+        resetButton.addActionListener(handler);
 
         myframe.add(resetButton, BorderLayout.SOUTH);
 
